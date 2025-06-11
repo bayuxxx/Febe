@@ -1,0 +1,1 @@
+export const baseUrl = 'https://api-capstone-production.up.railway.app';
