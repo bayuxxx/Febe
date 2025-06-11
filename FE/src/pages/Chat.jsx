@@ -1,14 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
-import {
-  Stethoscope,
-} from "lucide-react";
+import { Stethoscope } from "lucide-react";
 
 import axios from "axios";
 import { io } from "socket.io-client";
 import ChatList from "../components/ChatList";
 import currentUser from "../utils/CurrentUser";
 import MainChat from "../components/MainChat";
-
 
 const ChatApp = () => {
   const [user] = useState(null);
@@ -83,7 +80,7 @@ const ChatApp = () => {
           "Content-Type": "application/json",
         },
       });
-      
+
       if (data.status === "success") {
         setChats(data.data.chats);
       }
@@ -93,7 +90,7 @@ const ChatApp = () => {
       setLoading(false);
     }
   };
-  
+
   // Fetch doctors
   const fetchDoctors = async () => {
     try {
@@ -107,7 +104,7 @@ const ChatApp = () => {
       setDoctors([]);
     }
   };
-  
+
   // Fetch messages for active chat
   const fetchMessages = async (chatId) => {
     setLoadings(true);
@@ -119,7 +116,7 @@ const ChatApp = () => {
           "Content-Type": "application/json",
         },
       });
-  
+
       if (data.status === "success") {
         setMessages(data.data.messages);
       } else {
@@ -131,7 +128,7 @@ const ChatApp = () => {
       setLoadings(false);
     }
   };
-  
+
   // Create new chat with doctor
   const createChat = async (doctorId) => {
     try {
@@ -146,7 +143,7 @@ const ChatApp = () => {
           },
         }
       );
-  
+
       if (data.status === "success") {
         await fetchChats();
         setActiveChat(data.data);
@@ -160,11 +157,11 @@ const ChatApp = () => {
       setLoading(false);
     }
   };
-  
+
   // Send message
   const sendMessage = async () => {
     if (!newMessage.trim() || !activeChat) return;
-  
+
     try {
       const response = await axios.post(
         `${API_BASE}/chats/${activeChat.id || activeChat.chatId}/messages`,
@@ -176,7 +173,7 @@ const ChatApp = () => {
           },
         }
       );
-  
+
       if (response.status === 200) {
         setNewMessage("");
       }
@@ -217,7 +214,7 @@ const ChatApp = () => {
   }, []);
 
   return (
-<div className="flex flex-col md:flex-row h-[calc(100vh-84px)] bg-gray-100">
+    <div className="flex flex-col md:flex-row h-[calc(100vh-84px)] bg-gray-100">
       {/* Sidebar - Chat List */}
       <ChatList
         loading={loading}
@@ -240,7 +237,7 @@ const ChatApp = () => {
         handleTyping={handleTyping}
         sendMessage={sendMessage}
         messagesEndRef={messagesEndRef}
-        loading={loadings} 
+        loading={loadings}
       />
 
       {/* Doctor List Modal */}
