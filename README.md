@@ -11,9 +11,9 @@
 ---
 
 ## 📷 Demo Tampilan
-![Dashboard](https://raw.githubusercontent.com/bayuxxx/Febe/main/assets/dashboard-full.png)
+
 ### 🖥️ Dashboard Utama
-![Dashboard Health Guard](https://user-images.githubusercontent.com/your-username/demo-dashboard.png](https://github.com/bayuxxx/Febe/blob/main/assets/dashboard-full.png)
+![Dashboard](https://raw.githubusercontent.com/bayuxxx/Febe/main/assets/dashboard-full.png)
 
 ### 📊 Hasil Prediksi Penyakit
 ![Hasil Prediksi](https://user-images.githubusercontent.com/your-username/demo-prediksi.png)
