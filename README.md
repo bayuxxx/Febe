@@ -16,10 +16,10 @@
 ![Dashboard](https://raw.githubusercontent.com/bayuxxx/Febe/main/assets/dashboard-full.png)
 
 ### 📊 Hasil Prediksi Penyakit
-![Hasil Prediksi](https://user-images.githubusercontent.com/your-username/demo-prediksi.png)
+![Hasil Prediksi](https://github.com/bayuxxx/Febe/blob/main/assets/hasil-analisis.png)
 
 ### 💬 Chat dengan Dokter
-![Chat Dokter](https://user-images.githubusercontent.com/your-username/demo-chat.png)
+![Chat Dokter](https://github.com/bayuxxx/Febe/blob/main/assets/chat-user.png)
 
 ---
 
