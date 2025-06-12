@@ -311,3 +311,28 @@ Authorization: Bearer <token>
 - **404** Not Found – chat tidak ditemukan
 
 ---
+
+## Doctors
+
+### Get All Valid Doctors
+
+- **URL:** `/api/doctors/valid`
+- **Method:** `GET`
+- **Auth required:** No
+- **Description:** Returns a list of doctors with `role === "doctor"` and `isValid === true`.
+
+- **Response Example:**
+```json
+{
+  "status": "success",
+  "data": [
+    {
+      "id": "doctorId",
+      "email": "doctor@example.com",
+      "fullName": "Dr. Jane Doe",
+      "role": "doctor",
+      "isValid": true
+    }
+  ]
+}
+```
