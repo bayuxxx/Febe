@@ -6,7 +6,7 @@
 ---
 
 ## 🌐 Website Live
-🔗 [https://health-guard.web.app](https://health-guard.web.app)  
+🔗 [Demo Website](https://health-guard-one.vercel.app)  
 
 ---
 
@@ -20,8 +20,6 @@
 
 ### 💬 Chat dengan Dokter
 ![Chat Dokter](https://user-images.githubusercontent.com/your-username/demo-chat.png)
-
-_(Silakan upload gambar ke GitHub atau imgur, lalu masukkan URL-nya)_
 
 ---
 
@@ -39,11 +37,10 @@ _(Silakan upload gambar ke GitHub atau imgur, lalu masukkan URL-nya)_
 | Kategori    | Teknologi                                      |
 |-------------|------------------------------------------------|
 | Frontend    | React.js, Tailwind CSS                         |
-| Backend     | Hapi.js / Express.js                           |
-| ML Inference| ONNX / TensorFlow Lite                         |
-| Database    | Firebase Firestore / MySQL                     |
-| Auth        | Firebase Authentication / JWT                  |
-| Chat        | WebSocket / Firebase Realtime Database         |
+| Backend     | Hapi.js                                        |
+| Database    | Firebase Firestore                             |
+| Auth        | JWT                                            |
+| Chat        | WebSocket                                      |
 
 ---
 
@@ -52,49 +49,24 @@ _(Silakan upload gambar ke GitHub atau imgur, lalu masukkan URL-nya)_
 ### 1. Clone Repositori
 
 ```bash
-git clone https://github.com/username/health-guard.git
-cd health-guard
+git clone https://github.com/bayuxxx/Febe
+cd Febe
 ```
 
 ### 2. Instalasi dan Jalankan
 
 #### Frontend:
 ```bash
-cd frontend
+cd FE
 npm install
 npm run dev
 ```
 
 #### Backend:
 ```bash
-cd backend
+cd BE
 npm install
 npm run dev
 ```
 
 ---
-
-## ✅ Roadmap (Coming Soon)
-
-- [ ] Fitur booking jadwal dokter
-- [ ] Upload hasil lab manual
-- [ ] Notifikasi pengingat kesehatan
-
----
-
-## 🤝 Kontribusi
-
-Kontribusi terbuka untuk siapa saja. Silakan buat `issue` atau `pull request` untuk perbaikan atau fitur baru!
-
----
-
-## 📄 Lisensi
-
-MIT License
-
----
-
-## 👥 Tim Pengembang
-
-Dikembangkan oleh Tim **Health Guard**  
-💙 Demi masa depan kesehatan yang lebih baik!
