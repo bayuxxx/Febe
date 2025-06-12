@@ -49,7 +49,7 @@
 ### 1. Clone Repositori
 
 ```bash
-git clone https://github.com/bayuxxx/Febe
+git clone https://github.com/bayuxxx/Febe.git
 cd Febe
 ```
 
