@@ -8,9 +8,6 @@
 ## 🌐 Website Live
 🔗 [Demo Website](https://health-guard-one.vercel.app)  
 
-
----
-
 ## 📷 Demo Tampilan
 
 ### 🖥️ Dashboard Utama
